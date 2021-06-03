@@ -112,3 +112,5 @@ def calculateBranchSums(node, runningSum, sums):
 
     calculateBranchSums(node.left, newRunningSum, sums)
     calculateBranchSums(node.right, newRunningSum, sums)
+
+    
